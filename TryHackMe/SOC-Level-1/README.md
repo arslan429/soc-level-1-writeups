@@ -50,6 +50,57 @@ For each investigation, I aim to document:
 - Linux
 - Windows
 - Security Labs
+## Investigation Documentation
+
+This repository contains practical SOC Level 1 documentation covering common security operations, detection, investigation, and attacker techniques.
+
+### Security Operations & Detection
+
+* [Threat Detection](Threat-Detection.md) — Detection concepts, indicators, and SOC analysis.
+* [Incident Investigation](Incident-Investigation.md) — Investigation workflow, evidence collection, timeline analysis, and response.
+* [Windows Event Analysis](Windows-Event-Analysis.md) — Windows Event IDs and security event analysis.
+* [Linux Security Analysis](Linux-Security-Analysis.md) — Linux logs, processes, authentication, and security analysis.
+
+### Attack Analysis
+
+* [Phishing Incident Investigation](Phishing-Incident-Investigation.md) — Phishing investigation and analysis of suspicious emails.
+* [Malware Analysis](Malware-Analysis.md) — Basic malware behavior and indicators of compromise.
+* [Command & Control](Command-and-Control.md) — C2 concepts and suspicious communication analysis.
+* [Persistence](Persistence.md) — Common persistence mechanisms and detection approaches.
+* [Credential Dumping](Credential-Dumping.md) — Credential theft concepts and investigation.
+* [Lateral Movement](Lateral-Movement.md) — Techniques used to move between systems and related detection methods.
+
+## Portfolio Focus
+
+The goal of this portfolio is to demonstrate practical SOC analyst skills through documented investigations rather than simply listing completed labs.
+
+Key areas include:
+
+* Security monitoring and alert analysis
+* Incident investigation
+* Windows and Linux log analysis
+* Phishing and malware investigation
+* Threat detection
+* Command & Control analysis
+* Persistence detection
+* Credential theft investigation
+* Lateral movement analysis
+* MITRE ATT&CK mapping
+* Evidence-based incident response
+
+## Learning Approach
+
+For each topic, I focus on understanding:
+
+* What happened
+* How the activity was detected
+* What evidence was available
+* Which techniques were involved
+* How an analyst could investigate the activity
+* What indicators could be used for detection
+* What lessons can be applied to future investigations
+
+This portfolio represents hands-on learning through the TryHackMe SOC Level 1 learning path and related security labs.
 
 ## Goal
 
